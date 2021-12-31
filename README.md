@@ -1,4 +1,4 @@
-# ReactJS Chess
+# Chess Game Using Minimax Algorithm
 
 This is a web chess game coded in React. Feel free to contribute as this is an open source project!
 
