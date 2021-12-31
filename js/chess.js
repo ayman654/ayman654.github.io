@@ -603,7 +603,7 @@ class Board extends React.Component {
   evaluate_black(squares) {
     let total_eval = 0;
     for (let i = 0; i < 64; i++) total_eval += get_piece_value(squares[i], i);
-    return total_eval;
+    return total_eval;    
   }
   // helper function for execute_bot: minimax algorithm for chess bot
   minimax(
@@ -1063,7 +1063,7 @@ class Board extends React.Component {
           <div className="left_screen bounceInDown">
             <div className="side_box">
               <div className="content">
-                <p className="header_font">ReactJS Chess</p>
+                <p className="header_font">Chess Game</p>
                 <p className="medium_font">
                   Play against our friendly bot!&nbsp;&nbsp;
                   <a href="./how_to_play.html" target="_blank">
